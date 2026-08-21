@@ -49,11 +49,11 @@ const Projects = () => {
             />
             <div className="quote-card">
               <span>&ldquo;</span>
-              <p>
-                Nganya Transit was built to solve a real daily problem for
-                thousands of commuters in Nairobi.
-              </p>
-              <strong>A product built with purpose.</strong>
+              <p>{featuredProject.quote || featuredProject.description}</p>
+              <strong>
+                {featuredProject.quote_attribution ||
+                  "A product built with purpose."}
+              </strong>
             </div>
           </div>
 
