@@ -613,7 +613,7 @@ img {
 .project-card {
   position: relative;
   display: grid;
-  grid-template-rows: auto auto;
+  grid-template-rows: minmax(0, 1fr) auto;
   row-gap: 22px;
   align-items: start;
   min-height: 150px;
