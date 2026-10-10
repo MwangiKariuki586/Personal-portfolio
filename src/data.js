@@ -244,6 +244,26 @@ export const projects = [
   },
  
   {
+    id: "chateau-glow",
+    title: "Château Glow",
+    project_name: "Château Glow",
+    category: "Beauty",
+    platform: "Web Applications",
+    type: "archive",
+    featured: false,
+    homepage: false,
+    priority: 7,
+    description:
+      "A premium beauty and aesthetics platform for a UAE brand, with service bookings, a curated product shop, offers, and consultation flows.",
+    image: "/projects/chateau-glow.png",
+    project_image: "/projects/chateau-glow.png",
+    githubUrl: "https://github.com/MwangiKariuki586/Ch-teau-glow",
+    github_link: "https://github.com/MwangiKariuki586/Ch-teau-glow",
+    liveDemoUrl: "https://ch-teau-glow.vercel.app/",
+    demo_link: "https://ch-teau-glow.vercel.app/",
+    tech: ["Next.js", "Tailwind CSS", "Supabase"],
+  },
+  {
     id: "chat-app",
     title: "Chat app",
     project_name: "Chat app",
@@ -252,7 +272,7 @@ export const projects = [
     type: "archive",
     featured: false,
     homepage: false,
-    priority: 7,
+    priority: 8,
     description:
       "A realtime messaging interface focused on clean conversations, simple rooms, and responsive interaction.",
     image: "/projects/chat.png",
